@@ -10,3 +10,6 @@
 
 # Installation
   The libraries can be installed via `python -r path\to\requirements.txt`.
+
+# Working
+  `Classifier.py` can be launched to classify the images that are in the `Input Images` folder.
