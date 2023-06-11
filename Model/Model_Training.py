@@ -39,7 +39,7 @@ def main():
         tf.keras.layers.RandomRotation(0.2),
     ])
 
-    # ResNet50V2 Pre-trained model
+    # ResNetRS50 Pre-trained model
     img_shape = img_size + (3,)
     base_model = tf.keras.applications.resnet_rs.ResNetRS50(input_shape=img_shape, include_top=False, weights='imagenet')
     base_model.trainable = False
